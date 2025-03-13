@@ -3,7 +3,6 @@
 </html>
 
 <?php
-
 echo '<center>';
 
 if (!isset($_GET['district']))
