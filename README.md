@@ -17,7 +17,7 @@ ISISC est un système d'inscription pour les groupes scouts, permettant aux util
 
 1. Clonez ce dépôt sur votre serveur :
    ```bash
-   git clone https://github.com/votre-utilisateur/ISISC.git
+   git clone https://github.com/pasmax2/ISISC.git
    ```
 2. Placez les fichiers dans votre serveur web (Apache, Nginx, etc.).
 3. Assurez-vous que PHP est installé et configuré sur votre serveur.
@@ -31,4 +31,4 @@ ISISC est un système d'inscription pour les groupes scouts, permettant aux util
 Ce projet est sous licence propriétaire (© 2025 Indexatech, Pascal Levesque).
 
 ## 📧 Contact
-Pour toute question ou suggestion, contactez : [votre-email@example.com]
+Pour toute question ou suggestion, contactez : [pasmax2@gmail.com]
