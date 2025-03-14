@@ -2,12 +2,13 @@
 $nb_groupe = 8;
 # Liste des district
 $district = array(
-    ''                                  => '',
-    'Monteregie'                        => 'd10',
-    'Montréal'                          => 'mon',
-    'Atlantique'                        => 'd04',
-    'Quebec'                            => 'que',
-    'Je ne trouve pas mon district dans la liste.'     => 'Nope',
+    ''                                               => '',
+    'Montréal'                                       => 'mon',
+    'L\'érable'                                      => 'd02',
+    'Atlantique'                                     => 'd04',
+    'Monteregie'                                     => 'd10',
+    'Horizon Boréal (Quebec)'                        => 'que',
+    'Je ne trouve pas mon district dans la liste.'   => 'Nope',
 );
 # District Montérégie
 $groupe['d10'] = array(
@@ -27,16 +28,24 @@ $groupe['mon'] = array(
 $groupe['d04'] = array(
     ''    => array('name'=>'', 'groupe'=>'', 'district'=>''),
     '002' => array('name'=>'[Atlantique] 2e Scouts de Dieppe', 'groupe'=>'002', 'district'=>'d04'),
+    '000' => array('name'=>'Mon groupe ne figure pas dans la liste.', 'groupe'=>'Nope', 'district'=>'Nope'),
 );
 # District de Québec
 $groupe['que'] = array(
     ''    => array('name'=>'', 'groupe'=>'', 'district'=>''),
+    '001'    => array('name'=>'[Québec] 1er Groupe scout de Sept-Iles', 'groupe'=>'001', 'district'=>'que'),
     '002' => array('name'=>'[Québec] 20e Groupe scout du Triangle', 'groupe'=>'020', 'district'=>'que'),
+    '000' => array('name'=>'Mon groupe ne figure pas dans la liste.', 'groupe'=>'Nope', 'district'=>'Nope'),
+);
+$groupe['d02'] = array(
+    ''    => array('name'=>'', 'groupe'=>'', 'district'=>''),
+    '001'    => array('name'=>'[L\'érable] 5e Groupe scout Coaticook', 'groupe'=>'005', 'district'=>'d02'),
+    '000' => array('name'=>'Mon groupe ne figure pas dans la liste.', 'groupe'=>'Nope', 'district'=>'Nope'),
 );
 # Type d'inscription possible
 $type = array(
-    'Jeune Scout'       => array('type' => 'B', 'situation' => 'j'),
+    'Jeune Scout'             => array('type' => 'B', 'situation' => 'j'),
     'Jeune Scout d\'un jour'  => array('type' => 'J', 'situation' => 'j'),
-    'Adulte Bénévole'            => array('type' => 'B', 'situation' => 'a'),
+    'Adulte Bénévole'         => array('type' => 'B', 'situation' => 'a'),
 );
 ?>
