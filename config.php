@@ -53,7 +53,7 @@ $groupe['d02'] = array(
 # Types d'inscription possibles
 $type = array(
     'Jeune Scout'             => array('type' => 'B', 'situation' => 'j'),
-    'Jeune Scout d'un jour'  => array('type' => 'J', 'situation' => 'j'),
+    'Jeune Scout d\'un jour'  => array('type' => 'J', 'situation' => 'j'),
     'Adulte Bénévole'         => array('type' => 'B', 'situation' => 'a'),
 );
 ?>
