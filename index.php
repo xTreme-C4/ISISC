@@ -61,10 +61,10 @@
             <img src="https://asc-sisc.ca/banniere_html.png">
             <div style="display: inline;float: center;background-color: #f0f0e0;color: #007748;">
                 <?php 
-                require_once 'config.php';
+                require 'config.php';
                 echo '<br>Il y à sur ISISC '.count($groupe).' district et '.$nb_groupe.' groupe inscrit au total.<br>';
                 echo '<br><input onclick="location.href=\'index.php\';" class="styled" type="button" value="Accueil" />';
-                require_once 'systeme.php';
+                require 'systeme.php';
                 if (isset($_GET['district']) && isset($_GET['groupe']) && isset($_GET['type']) && isset($_GET['situation'])) {
                     echo '
                     <h2>Fiche d\'inscription</h2>
