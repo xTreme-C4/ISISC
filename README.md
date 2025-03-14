@@ -1,6 +1,7 @@
 # ISISC - Système d'Inscription Scout
 
 ISISC est un système d'inscription pour les groupes scouts, permettant aux utilisateurs de s'inscrire selon leur district et leur groupe. En gros, ISISC est un système qui reprend un système d'inscription déjà intégré dans le SISC. Il gère les liens et les affiche dans un iframe tout en sélectionnant le district et le groupe choisis.
+le système est présentement héberger au https://isisc.ca
 
 ## 📌 Fonctionnalités
 - Sélection du district et du groupe scout.
