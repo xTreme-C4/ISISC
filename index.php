@@ -70,6 +70,8 @@
                     echo '
                     <h2>Fiche d\'inscription</h2>
                     <p>Si le site ne s\'affiche pas <a href="https://asc-sisc.ca/inscriptions.php?district='.$_GET['district'].'&groupe='.$_GET['groupe'].'&situation='.$_GET['situation'].'&type='.$_GET['type'].'" target="iframe_a">clic ici</a></p>
+                    <p>vous pouvez prendre contact avec le webmaster si vous avez des question ou quoi que ce sois autre<a href="mailto:pasmax2@gmail.com">
+                    <img src="https://asc-sisc.ca/mail.png" alt="mail" style="width: 20px; height: 20px;"></a></p>
                     <iframe 
                         src="https://asc-sisc.ca/inscriptions.php?district='.$_GET['district'].'&groupe='.$_GET['groupe'].'&situation='.$_GET['situation'].'&type='.$_GET['type'].'" 
                         name="insription"
