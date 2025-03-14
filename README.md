@@ -1,8 +1,6 @@
 # ISISC - Système d'Inscription Scout
 
-ISISC est un système d'inscription pour les groupes scouts, permettant aux utilisateurs de s'inscrire selon leur district et leur groupe.
-En gros ISISC est un système qui reprend un système d'inscription déjà integré dans le sisc il fait la gestion des lien et les mait dans un iframe et affiche sur la page
-tout en sélectionant le distric et groupe qui à été choisi.
+ISISC est un système d'inscription pour les groupes scouts, permettant aux utilisateurs de s'inscrire selon leur district et leur groupe. En gros, ISISC est un système qui reprend un système d'inscription déjà intégré dans le SISC. Il gère les liens et les affiche dans un iframe tout en sélectionnant le district et le groupe choisis.
 
 ## 📌 Fonctionnalités
 - Sélection du district et du groupe scout.
@@ -21,9 +19,13 @@ tout en sélectionant le distric et groupe qui à été choisi.
    ```bash
    git clone https://github.com/pasmax2/ISISC.git
    ```
-2. Placez les fichiers dans votre serveur web (Apache, Nginx, etc.).
+2. Placez les fichiers dans le répertoire racine de votre serveur web (Apache, Nginx, etc.).
 3. Assurez-vous que PHP est installé et configuré sur votre serveur.
-4. Accédez à l'URL de votre serveur pour commencer l'inscription.
+4. Modifiez le fichier `config.php` pour ajouter ou mettre à jour les districts et groupes si nécessaire.
+5. Accédez à l'URL de votre serveur pour commencer l'inscription :
+   ```
+   http://votre-serveur/index.php
+   ```
 
 ## ⚙️ Prérequis
 - PHP 7.4 ou supérieur
