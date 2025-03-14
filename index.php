@@ -64,7 +64,7 @@
                 <?php 
                 require 'config.php';
                 echo '<br>Il y à sur ISISC '.count($groupe).' district et '.$nb_groupe.' groupe inscrit au total.<br>';
-                <p>vous pouvez prendre contact avec le webmaster si vous avez des question ou quoi que ce sois autre<a href="mailto:pasmax2@gmail.com">📧</a></p>
+                echo '<p>vous pouvez prendre contact avec le webmaster si vous avez des question ou quoi que ce sois autre<a href="mailto:pasmax2@gmail.com">📧</a></p>';
                 echo '<br><input onclick="location.href=\'index.php\';" class="styled" type="button" value="Accueil" />';
                 require 'systeme.php';
                 if (isset($_GET['district']) && isset($_GET['groupe']) && isset($_GET['type']) && isset($_GET['situation'])) {
