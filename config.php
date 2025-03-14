@@ -1,4 +1,5 @@
 <?php
+$nb_groupe = 8;
 # Liste des district
 $district = array(
     ''                                  => '',
