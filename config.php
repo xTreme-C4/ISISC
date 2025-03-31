@@ -12,6 +12,27 @@ $district = array(
     'Je ne trouve pas mon district dans la liste.'   => 'Nope',
 );
 
+# District de L'Érable
+$groupe['d02'] = array(
+    ''    => array('name' => '', 'groupe' => '', 'district' => ''),
+    '001' => array('name' => '[L\'érable] 1er Scouts Drummondville', 'groupe' => '001', 'district' => 'd02'),
+    '005' => array('name' => '[L\'érable] 5e Groupe scout Coaticook', 'groupe' => '005', 'district' => 'd02'),
+    '010' => array('name' => '[L\'érable] 10e Est-Calade', 'groupe' => '010', 'district' => 'd02'),
+    '022' => array('name' => '[L\'érable] 22e Harfang des Neiges', 'groupe' => '022', 'district' => 'd02'),
+    '024' => array('name' => '[L\'érable] 24e Des Sources', 'groupe' => '024', 'district' => 'd02'),
+    '047' => array('name' => '[L\'érable] 47e Rock Forest', 'groupe' => '047', 'district' => 'd02'),
+    '048' => array('name' => '[L\'érable] 48e Les Rassembleurs de St-Élie', 'groupe' => '048', 'district' => 'd02'),
+    '253' => array('name' => '[L\'érable] 53e St-Célestin', 'groupe' => '253', 'district' => 'd02'),
+    '000' => array('name' => 'Mon groupe ne figure pas dans la liste.', 'groupe' => 'Nope', 'district' => 'Nope'),
+);
+
+# District de l'Atlantique
+$groupe['d04'] = array(
+    ''    => array('name' => '', 'groupe' => '', 'district' => ''),
+    '002' => array('name' => '[Atlantique] 2e Scouts de Dieppe', 'groupe' => '002', 'district' => 'd04'),
+    '000' => array('name' => 'Mon groupe ne figure pas dans la liste.', 'groupe' => 'Nope', 'district' => 'Nope'),
+);
+
 # District Montérégie
 $groupe['d10'] = array(
     ''    => array('name' => '', 'groupe' => '', 'district' => ''),
@@ -28,25 +49,11 @@ $groupe['mon'] = array(
     '000' => array('name' => 'Mon groupe ne figure pas dans la liste.', 'groupe' => 'Nope', 'district' => 'Nope'),
 );
 
-# District de l'Atlantique
-$groupe['d04'] = array(
-    ''    => array('name' => '', 'groupe' => '', 'district' => ''),
-    '002' => array('name' => '[Atlantique] 2e Scouts de Dieppe', 'groupe' => '002', 'district' => 'd04'),
-    '000' => array('name' => 'Mon groupe ne figure pas dans la liste.', 'groupe' => 'Nope', 'district' => 'Nope'),
-);
-
 # District de Québec
 $groupe['que'] = array(
     ''    => array('name' => '', 'groupe' => '', 'district' => ''),
     '001' => array('name' => '[Québec] 1er Groupe scout de Sept-Iles', 'groupe' => '001', 'district' => 'que'),
     '002' => array('name' => '[Québec] 20e Groupe scout du Triangle', 'groupe' => '020', 'district' => 'que'),
-    '000' => array('name' => 'Mon groupe ne figure pas dans la liste.', 'groupe' => 'Nope', 'district' => 'Nope'),
-);
-
-# District de L'Érable
-$groupe['d02'] = array(
-    ''    => array('name' => '', 'groupe' => '', 'district' => ''),
-    '001' => array('name' => '[L\'érable] 5e Groupe scout Coaticook', 'groupe' => '005', 'district' => 'd02'),
     '000' => array('name' => 'Mon groupe ne figure pas dans la liste.', 'groupe' => 'Nope', 'district' => 'Nope'),
 );
 
