@@ -81,7 +81,7 @@ function compterTousLesGroupes(array $groupe): int {
 
 // Exemple d'utilisation :
 $nb_groupe = compterTousLesGroupes($groupe);
-echo "Nombre total de groupes valides : $nb_groupe";
+//echo "Nombre total de groupes valides : $nb_groupe";
 
 
 ?>
