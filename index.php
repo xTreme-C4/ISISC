@@ -82,7 +82,6 @@
                 if (isset($_GET['district']) && $_GET['district'] == 'Nope' && isset($_GET['groupe']) && $_GET['groupe'] == 'Nope') {
                     echo '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf2Se927ptSanl00e4OY97IhgtGEshybP2d0Pi3GmEnm0kK6g/viewform?embedded=true" width="1000" height="1000" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours…</iframe>';
                 }
-                echo '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf2Se927ptSanl00e4OY97IhgtGEshybP2d0Pi3GmEnm0kK6g/viewform?embedded=true" width="1000" height="1000" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours…</iframe>';
                 ?>
             </div>
         </div>
