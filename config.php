@@ -1,25 +1,7 @@
 <?php
-
-function compterTousLesGroupes(array $groupe): int {
-    $nb = 0;
-
-    foreach ($groupe as $district) {
-        foreach ($district as $code => $infos) {
-            if ($code !== '' && $code !== '000') {
-                $nb++;
-            }
-        }
-    }
-
-    return $nb;
-}
-
-// Exemple d'utilisation :
-$nb_groupe = compterTousLesGroupes($groupe);
-//echo "Nombre total de groupes valides : $nb_groupe";
-
 //$nb_groupe = 15;
-
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 # Liste des districts
 $district = array(
     ''                                               => '',
@@ -82,4 +64,24 @@ $type = array(
     'Jeune Scout d\'un jour'  => array('type' => 'J', 'situation' => 'j'),
     'Adulte Bénévole'         => array('type' => 'B', 'situation' => 'a'),
 );
+
+function compterTousLesGroupes(array $groupe): int {
+    $nb = 0;
+
+    foreach ($groupe as $district) {
+        foreach ($district as $code => $infos) {
+            if ($code !== '' && $code !== '000') {
+                $nb++;
+            }
+        }
+    }
+
+    return $nb;
+}
+
+// Exemple d'utilisation :
+$nb_groupe = compterTousLesGroupes($groupe);
+echo "Nombre total de groupes valides : $nb_groupe";
+
+
 ?>
