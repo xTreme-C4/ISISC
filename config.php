@@ -1,5 +1,24 @@
 <?php
-$nb_groupe = 15;
+
+function compterTousLesGroupes(array $groupe): int {
+    $nb = 0;
+
+    foreach ($groupe as $district) {
+        foreach ($district as $code => $infos) {
+            if ($code !== '' && $code !== '000') {
+                $nb++;
+            }
+        }
+    }
+
+    return $nb;
+}
+
+// Exemple d'utilisation :
+$nb_groupe = compterTousLesGroupes($groupe);
+//echo "Nombre total de groupes valides : $nb_groupe";
+
+//$nb_groupe = 15;
 
 # Liste des districts
 $district = array(
