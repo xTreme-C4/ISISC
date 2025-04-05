@@ -1,5 +1,5 @@
 <?php
-$nb_groupe = 8;
+$nb_groupe = 15;
 
 # Liste des districts
 $district = array(
