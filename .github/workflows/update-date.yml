@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "<?php" > date.php
           echo "// Dernière mise à jour automatique" >> date.php
-          echo "\$last_update = '"$(date '+%Y-%m-%d %H:%M:%S')"' ;" >> date.php
+          echo "\$last_update = '"$(date -u -d '-4 hours' '+%Y-%m-%d %H:%M:%S')"' ;" >> date.php
           echo "?>" >> date.php
 
       - name: Commit and push date.php
