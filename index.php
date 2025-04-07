@@ -63,7 +63,7 @@
             <div style="display: inline;float: center;background-color: #f0f0e0;color: #007748;">
                 <?php 
                 require 'config.php';
-                require 'date.php';
+                require_once 'date.php';
                 echo '<br>Il y a sur ISISC '.count($groupe).' districts et '.$nb_groupe.' groupes inscrits au total.<br>';
                 echo 'Dernière mise à jour le : '.$last_update.'<br>';
                 echo '<p>vous pouvez prendre contact avec le webmaster si vous avez des questions ou quoi que ce soit d\'autre<a href="mailto:pasmax2@gmail.com">📧</a></p>';
