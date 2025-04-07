@@ -63,8 +63,8 @@
             <div style="display: inline;float: center;background-color: #f0f0e0;color: #007748;">
                 <?php 
                 require 'config.php';
-                echo '<br>Il y à sur ISISC '.count($groupe).' district et '.$nb_groupe.' groupe inscrit au total.<br>';
-                echo '<p>vous pouvez prendre contact avec le webmaster si vous avez des question ou quoi que ce sois autre<a href="mailto:pasmax2@gmail.com">📧</a></p>';
+                echo '<br>Il y a sur ISISC '.count($groupe).' districts et '.$nb_groupe.' groupes inscrits au total.<br>';
+                echo '<p>vous pouvez prendre contact avec le webmaster si vous avez des questions ou quoi que ce soit d\'autre<a href="mailto:pasmax2@gmail.com">📧</a></p>';
                 echo '<br><input onclick="location.href=\'index.php\';" class="styled" type="button" value="Accueil" />';
                 require 'systeme.php';
                 if (isset($_GET['district']) && isset($_GET['groupe']) && isset($_GET['type']) && isset($_GET['situation'])) {
