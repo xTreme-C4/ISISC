@@ -37,6 +37,7 @@ $groupe['d04'] = array(
 # District Montérégie
 $groupe['d10'] = array(
     ''    => array('name' => '', 'groupe' => '', 'district' => ''),
+    '005' => array('name' => '[Monteregie] 19e Saint-Hubert', 'groupe' => '005', 'district' => 'd10'),
     '008' => array('name' => '[Monteregie] 8e Acton Vale', 'groupe' => '008', 'district' => 'd10'),
     '009' => array('name' => '[Monteregie] 9e St-Thomas de Villeneuve (Saint-Hubert)', 'groupe' => '009', 'district' => 'd10'),
     '019' => array('name' => '[Monteregie] 19e Saint-Hubert', 'groupe' => '019', 'district' => 'd10'),
